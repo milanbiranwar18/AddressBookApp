@@ -2,12 +2,116 @@
 <html>
 <head>
     <title> Address Book App</title>
-    
+    <link rel="stylesheet" href = "AddressBook.css">
+    <script src = "AddressBook.js"></script>
+    <script src = "AddressBookApp.js"></script>
+    <script src = "site-properties.js"></script>
 </head>
 
 <body> 
-    <script>
-        document.write("Wellcome to the Address Book  App")
-    </script>
+    <header class = "header-content header">
+        <div class = "logo-content">
+            <img src = "Addressbook.webp" alt ="" width="33%">
+            <div>
+                <span class = "emp-text">Address</span><br>
+                <span class = "emp-text emp-payroll">Book</span>
+            </div>
+        </div>
+
+        <div class="headings">
+            <h3>Add Person Address book UI/UX Design</h3>
+        </div>
+    </header>
+
+    <div class="form-content">
+        <form class = "form" action = "#" onreset="resetform()" onsubmit = "save();return false">
+            <div class="callout">
+                <div>
+                   <p>PERSON ADDRESS FORM</p>
+                   
+                    </div>
+                      <!-- <button class="close-button" aria-label="Close alert" type="button" data-close>
+                            <span aria-hidden="true"> &times;</span>
+                        </button>
+                          -->
+                          <img class="close-button" onclick = "remove(this)" src="istockphoto-857112152-612x612.jpg" alt="close">
+                       <!--   <button> <a href="Home.html" class="close-button" aria-label="Close alert" type="button" data-close>
+                            <span aria-hidden="true"> &times;</span>
+                            </a>
+                        </button>
+                      -->
+
+                    </div>
+
+<div class="formdeatils">
+    <br> <br>
+        <div class = "namecontent">
+       
+            <input id="name" type="name" autocomplete="off" spellcheck="false" role="combobox" 
+            placeholder="Enter Your Full Name" aria-live="polite">
+            <error-output class = "text-error" for = "text"></error-output>
+        </div>
+        <br> <br>
+        <div class="address" >
+            <textarea id ="notes" class = "addressclass" name ="Notes" placeholder="Address" style = "height:100px;"></textarea>
+        </div>
+        <br> <br>
+        <div class ="row-content">
+            <label class="label text" for="startDate"></label>
+            <div class="buttonclass">
+                <select id="city" name="City">
+                    <option value="Select City">Select City</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Bhusawal">Bhusawal</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Indor">Indor</option>
+                    <option value="Shikandarabad">Shikandarabad</option>
+                </select>
+    
+                <select id = "state" name = "State">
+                    <option value="Select state">Select state</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Madhyapradesh">Madhyapradesh</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Westbegal">Westbegal</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Kashmir">Kashmir</option>
+    
+                </select>
+    
+               
+                    <input class="zipcode" id="code" type="FullName" autocomplete="off" spellcheck="false" role="combobox" 
+                    placeholder="Zip Code" aria-live="polite">
+                   
+    
+               
+            </div>
+        </div>
+        <br> <br>
+        <div class="inputWrapper">
+            <input id="input" type="FullName" autocomplete="off" spellcheck="false" role="combobox" 
+            placeholder="Phone Number" aria-live="polite">
+           </div>
+           <br> <br>
+
+           <dev class ="button">
+   
+            <div class ="add-reset">
+                <button type = "add" class = "button addButton" id = "AddButton">Add</button>
+                <button type = "reset" class ="resetButton button" id = "Reset">Reset</button>
+                
+            </div>
+        </dev>
+
+    </div>
+    
+        </form>
+    </div>
 </body>
 </html>
+
