@@ -1,0 +1,271 @@
+body
+{
+    margin: 0;
+    height: 100%;
+}
+
+
+.header
+{
+    padding: 10px 0;
+    background-color: #ffff;
+}
+
+.header-content
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border: 0px solid green;
+}
+
+
+.logo-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 15%; 
+}
+
+.logo-content-img
+{
+    border: solid 0px #42515f;
+}
+
+.emp-text
+{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #314af1; 
+    text-transform: capitalize;  
+}
+
+.emp-payroll
+{
+    color: #42515f;
+   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 30px;
+    text-align:center;
+    align-items: center;
+    
+}
+
+.callout
+  {
+    justify-content: center;
+    display:flex;
+    flex-direction:row
+                
+ }
+           
+
+ .close-button {
+    width: 5%;
+    border: 10px 10px 10px 10px solid #ccc;
+    border-radius: 40px;
+    resize: horizontal;
+    margin: 30px;
+    float: right;
+    margin-left: 42%;
+}
+
+h3{
+    font-size: 30px;
+    text-align:center;
+    align-items: center;
+    text-decoration: underline;
+    color: #1e1ee3;
+}
+
+.form-content
+{
+    height: calc(100%-40px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.form
+{
+    width: 50%;
+    
+    padding: 0px 0px 0px;
+    background: rgb(89, 142, 241) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 0px solid #f5f5f5;
+    border-radius: 0px;
+    opacity: 1;
+}
+
+.formdeatils{
+    background-color: #f5f5f5;
+}
+
+.namecontent{
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.name{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+
+.address{
+    align-items: center;
+    text-align: center;
+
+}
+.addressclass{
+   
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+select {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+}
+
+.buttonclass{
+    align-items: right;
+    text-align: right;
+   
+}
+
+#city{
+    width: 30%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+    align-items: center;
+}
+
+#state{
+    width: 30%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+    align-items: center;
+}
+
+
+.row-content
+{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    border: 0px solid green;
+}
+
+.label
+{
+    min-width: 140px;
+}
+
+.label text{
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+
+}
+
+.zipcode{
+    width: 38%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.inputWrapper{
+    align-items: center;
+    text-align: center;
+
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.button{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#Reset{
+    width: 12%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+}
+
+#AddButton{
+     width: 12%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+
+}
+
+.text-error
+{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+
+
+
+
